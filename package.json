@@ -1,0 +1,22 @@
+{
+  "name": "migrate-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-db": "node createDatabaseAndMigrate.js",
+    "seed-admin" : "node ./seeds/adminSeed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "knex": "^2.4.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.4.2"
+  }
+}

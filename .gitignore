@@ -1,0 +1,24 @@
+# Directories
+node_modules/
+dist/
+coverage/
+
+# Environment files
+.env
+
+# OS-specific files
+.DS_Store
+
+# Logs
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Build output
+build/
